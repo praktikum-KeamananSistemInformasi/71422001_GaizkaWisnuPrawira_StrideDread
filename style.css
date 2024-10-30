@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef; /* Warna latar belakang halaman */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white; /* Warna latar belakang kontainer */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Bayangan kontainer */
+}
+
+h1 {
+    text-align: center;
+    color: #343a40; /* Warna teks judul */
+    margin-bottom: 20px; /* Jarak bawah judul */
+}
+
+label {
+    font-weight: bold;
+    display: block; /* Menampilkan label dalam baris baru */
+    margin-bottom: 5px; /* Jarak bawah label */
+    color: #495057; /* Warna teks label */
+}
+
+select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ced4da; /* Warna border */
+    border-radius: 4px; /* Sudut border yang melengkung */
+    font-size: 16px; /* Ukuran font */
+}
+
+button {
+    background-color: #007bff; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    cursor: pointer; /* Tanda pointer saat hover */
+    transition: background-color 0.3s; /* Transisi warna */
+}
+
+button:hover {
+    background-color: #0056b3; /* Warna latar belakang saat hover */
+}
+
+#hasil {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #007bff; /* Border hasil */
+    border-radius: 4px; /* Sudut border hasil */
+    background-color: #f1f8ff; /* Warna latar belakang hasil */
+}
+
+h2 {
+    color: #007bff; /* Warna judul hasil */
+}
+
+h3 {
+    margin-top: 20px; /* Jarak atas untuk judul rinci */
+    color: #343a40; /* Warna judul rinci */
+}
+
+ul {
+    padding-left: 20px; /* Jarak kiri untuk list */
+}
+
+li {
+    margin-bottom: 5px; /* Jarak bawah untuk item list */
+}
+
+canvas {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px; /* Jarak atas untuk grafik */
+}

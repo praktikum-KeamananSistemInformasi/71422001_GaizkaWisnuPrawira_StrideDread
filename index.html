@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Identifikasi Risiko Perusahaan Logistik</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Identifikasi Risiko Perusahaan Logistik</h1>
+        <label for="aset">Pilih Aset:</label>
+        <select id="aset">
+            <option value="server">Server</option>
+            <option value="database">Database</option>
+            <option value="pengguna">Data Pengguna</option>
+            <option value="api">API Eksternal</option>
+        </select>
+        <button onclick="tampilkanIdentifikasi()">Identifikasi</button>
+
+        <div id="hasil"></div>
+        <div id="logOutput" style="margin-top: 20px; font-family: Arial, sans-serif; color: #333;"></div>
+        <canvas id="myChart" width="400" height="200"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
